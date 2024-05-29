@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+}
+
+body {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.4705882353;
+}
+
+.break-line {
+    display: block;
+}
+
+.navbar {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1224px;
+    padding-top: 10px;
+    padding-bottom: 0;
+
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(46, 37, 37);
+    font-size: 15px;
+    font-weight: 400; 
+}
+
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navbar i {
+    font-size: 22px;
+  padding: 0 -40px;
+    
+}
+
+
+
+.container {
+    margin: 0 150px;
+    position: relative;
+
+   
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.column {
+    padding: 100px 0 64px;
+}
+
+.loja {
+    display: inline;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    line-height: 1.0834933333;
+    color: #000000;
+}
+
+.p {
+    display: inline;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 57px;
+    font-weight: 600;
+    line-height: 1.0834933333;
+    text-align: justify;
+    margin: 10px 0;
+    color: #6e6e73;
+}
