@@ -1,0 +1,64 @@
+:root{
+    --primary-bg:#000000;
+    --text-color:#fff;
+    --header-color:#0E0B14;
+    --get-color:#02172A;
+    --bg-color:#02D6E8;
+}
+
+body {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  background-image:  url(./fundo.svg);
+}
+
+.img{
+  max-width: 100px;
+}
+
+header {
+  background-color:var(--header-color);
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.buttons button {
+  background-color: var(--bg-color);
+  color: var(--get-color);
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  position:sticky;
+  z-index: 1;
+
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+
+.inc-ses{
+  background: transparent;
+}
+
+.section{
+  padding: 90px 60px;
+}
+
+.figurinha{
+  padding: 10px 0;
+  height: 20px;
+  vertical-align: sub;
+  display: inline-block;
+}
